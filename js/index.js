@@ -2,7 +2,7 @@
 const portfolioContainer = document.querySelector('div.portfolio')
 
 const renderPortfolioSection = async () => {
-    let uri = 'http://localhost:3000/projects';
+    let uri = 'data/db.json/projects';
   
     const res = await fetch(uri);
     const portfolioItems = await res.json();
