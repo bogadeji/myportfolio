@@ -1,52 +1,52 @@
 {
-    "projects": [
-        {
-                "id": 1,
-                "title": "Interior consultant",
-                "subtitle": "Interior Consultant",
-                "snippet": "Responsive Web challenge  from devchalleng.io",
-                "description": "This is a simple homepage for an interior consultant. According to devchallenges.io, this challenge tests styling navigation and positioning skills",
-                "image_url": "img/interior-01.png",
-                "device_image_url": "img/interior-02.png",
-                "gif_url": null,
-                "live_url": "",
-                "github_url": null
-        },
-        {
-                "id": 2,
-                "title": "My Gallery Challenge",
-                "subtitle": "Gallery",
-                "snippet": "Responsive Web challenge from devchalleng.io",
-                "description": "This is a picture gallery. It's unique, yet simple layout was quite interesting to style. According to devchallenges.io, this challenge is inspired by instagram",                "image_url": "img/gallery-01.png",
-                "device_image_url": "img/gallery-02.png",
-                "gif_url": null,
-                "live_url": "",
-                "github_url": null
-        },
-        {
-                "id": 3,
-                "title": "404 - Page not found",
-                "subtitle": "",
-                "snippet": "Responsive Web challenge  from devchalleng.io",
-                "description": "This is a simple 404 page. According to devchallenges.io, this challenge tests basic CSS and HTML skills.",
-                "image_url": "img/404-01.png",
-                "device_image_url": "img/interior-02.png",
-                "gif_url": null,
-                "live_url": "",
-                "github_url": null
-        },
-        {
-                "id": 4,
-                "title": "Team page",
-                "subtitle": "",
-                "snippet": "Responsive Web challenge  from devchalleng.io",
-                "description": "This challenge will test basic CSS skills and get it to next level. The design is simple, yet elegant, and is a test for basic HTML and CSS skills",
-                "image_url": "img/team-01.png",
-                "device_image_url": "img/interior-02.png",
-                "gif_url": null,
-                "live_url": "",
-                "github_url": null
-        }
-    ]
-
-}
+        "projects": [
+            {
+                    "id": 1,
+                    "title": "Interior consultant",
+                    "subtitle": "Interior Consultant",
+                    "snippet": "Responsive Web challenge  from devchalleng.io",
+                    "description": "This is a simple homepage for an interior consultant. According to devchallenges.io, this challenge tests styling navigation and positioning skills",
+                    "image_url": "img/interior-01.png",
+                    "device_image_url": "img/interior-02.png",
+                    "gif_url": null,
+                    "live_url": "https://bogadeji.github.io/devchallenges/responsive-web-challenge/interior-consultant/interior.html",
+                    "github_url": "https://github.com/bogadeji/devchallenges/tree/main/responsive-web-challenge/interior-consultant"
+            },
+            {
+                    "id": 2,
+                    "title": "My Gallery Challenge",
+                    "subtitle": "Gallery",
+                    "snippet": "Responsive Web challenge from devchalleng.io",
+                    "description": "This is a picture gallery. It's unique, yet simple layout was quite interesting to style. According to devchallenges.io, this challenge is inspired by instagram",                "image_url": "img/gallery-01.png",
+                    "device_image_url": "img/gallery-02.png",
+                    "gif_url": null,
+                    "live_url": "https://bogadeji.github.io/devchallenges/responsive-web-challenge/my-gallery/gallery.html",
+                    "github_url": "https://github.com/bogadeji/devchallenges/tree/main/responsive-web-challenge/my-gallery"
+            },
+            {
+                    "id": 3,
+                    "title": "404 - Page not found",
+                    "subtitle": "",
+                    "snippet": "Responsive Web challenge  from devchalleng.io",
+                    "description": "This is a simple 404 page. According to devchallenges.io, this challenge tests basic CSS and HTML skills.",
+                    "image_url": "img/404-01.png",
+                    "device_image_url": "img/interior-02.png",
+                    "gif_url": null,
+                    "live_url": "https://bogadeji.github.io/devchallenges/responsive-web-challenge/404-not-found/404.html",
+                    "github_url": "https://github.com/bogadeji/devchallenges/tree/main/responsive-web-challenge/404-not-found"
+            },
+            {
+                    "id": 4,
+                    "title": "Team page",
+                    "subtitle": "",
+                    "snippet": "Responsive Web challenge  from devchalleng.io",
+                    "description": "This challenge will test basic CSS skills and get it to next level. The design is simple, yet elegant, and is a test for basic HTML and CSS skills",
+                    "image_url": "img/team-01.png",
+                    "device_image_url": "img/interior-02.png",
+                    "gif_url": null,
+                    "live_url": "https://bogadeji.github.io/devchallenges/responsive-web-challenge/my-team-page/team-page.html",
+                    "github_url": "https://github.com/bogadeji/devchallenges/tree/main/responsive-web-challenge/my-team-page"
+            }
+        ]
+    
+    }
