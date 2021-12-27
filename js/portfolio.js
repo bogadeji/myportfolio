@@ -18,7 +18,7 @@ const renderPortfolioItem = async () => {
             <p>${portfolioItem.description}</p>
             <div class="buttons">
               <a href="${portfolioItem.github_url}" class="live-link code">View Code</a>
-              <a href="${portfolioItem.github_url}" class="live-link demo"">Demo</a>
+              <a href="${portfolioItem.live_url}" class="live-link demo"">Demo</a>
             </div>
         </div>
 
