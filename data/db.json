@@ -1,0 +1,53 @@
+{
+    "projects": [
+        {
+                "id": 1,
+                "title": "Interior consultant",
+                "subtitle": "Interior Consultant",
+                "snippet": "Responsive Web challenge  from devchalleng.io",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam euismod magna elementum blandit interdum. Phasellus in eros aliquam, semper nisl in, dapibus libero. Phasellus molestie tellus et tortor ornare, eget fermentum augue porttitor. Maecenas egestas nunc elementum congue maximus. Curabitur ante orci, aliquam sed mattis quis, dictum sed ipsum. Vestibulum in mollis libero. Aliquam dictum faucibus lorem, eget sodales justo ultricies ut. In tincidunt ligula tellus. Curabitur quis sapien sit amet libero ornare aliquam. Donec ullamcorper placerat felis, id cursus erat interdum ut. Aenean pellentesque vel libero vel blandit. Duis malesuada id augue a finibus.",
+                "image_url": "img/interior-01.png",
+                "device_image_url": "img/interior-02.png",
+                "gif_url": null,
+                "live_url": "",
+                "github_url": null
+        },
+        {
+                "id": 2,
+                "title": "My Gallery Challenge",
+                "subtitle": "Gallery",
+                "snippet": "Responsive Web challenge from devchalleng.io",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam euismod magna elementum blandit interdum. Phasellus in eros aliquam, semper nisl in, dapibus libero. Phasellus molestie tellus et tortor ornare, eget fermentum augue porttitor. Maecenas egestas nunc elementum congue maximus. Curabitur ante orci, aliquam sed mattis quis, dictum sed ipsum. Vestibulum in mollis libero. Aliquam dictum faucibus lorem, eget sodales justo ultricies ut. In tincidunt ligula tellus. Curabitur quis sapien sit amet libero ornare aliquam. Donec ullamcorper placerat felis, id cursus erat interdum ut. Aenean pellentesque vel libero vel blandit. Duis malesuada id augue a finibus.",
+                "image_url": "img/gallery-01.png",
+                "device_image_url": "img/gallery-02.png",
+                "gif_url": null,
+                "live_url": "",
+                "github_url": null
+        },
+        {
+                "id": 3,
+                "title": "404 - Page not found",
+                "subtitle": "",
+                "snippet": "Responsive Web challenge  from devchalleng.io",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam euismod magna elementum blandit interdum. Phasellus in eros aliquam, semper nisl in, dapibus libero. Phasellus molestie tellus et tortor ornare, eget fermentum augue porttitor. Maecenas egestas nunc elementum congue maximus. Curabitur ante orci, aliquam sed mattis quis, dictum sed ipsum. Vestibulum in mollis libero. Aliquam dictum faucibus lorem, eget sodales justo ultricies ut. In tincidunt ligula tellus. Curabitur quis sapien sit amet libero ornare aliquam. Donec ullamcorper placerat felis, id cursus erat interdum ut. Aenean pellentesque vel libero vel blandit. Duis malesuada id augue a finibus.",
+                "image_url": "img/404-01.png",
+                "device_image_url": "img/interior-02.png",
+                "gif_url": null,
+                "live_url": "",
+                "github_url": null
+        },
+        {
+                "id": 4,
+                "title": "Team page",
+                "subtitle": "",
+                "snippet": "Responsive Web challenge  from devchalleng.io",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam euismod magna elementum blandit interdum. Phasellus in eros aliquam, semper nisl in, dapibus libero. Phasellus molestie tellus et tortor ornare, eget fermentum augue porttitor. Maecenas egestas nunc elementum congue maximus. Curabitur ante orci, aliquam sed mattis quis, dictum sed ipsum. Vestibulum in mollis libero. Aliquam dictum faucibus lorem, eget sodales justo ultricies ut. In tincidunt ligula tellus. Curabitur quis sapien sit amet libero ornare aliquam. Donec ullamcorper placerat felis, id cursus erat interdum ut. Aenean pellentesque vel libero vel blandit. Duis malesuada id augue a finibus.",
+                "image_url": "img/team-01.png",
+                "device_image_url": "img/interior-02.png",
+                "gif_url": null,
+                "live_url": "",
+                "github_url": null
+        }
+    ]
+
+}
