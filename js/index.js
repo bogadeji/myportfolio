@@ -2,7 +2,7 @@
 const portfolioContainer = document.querySelector('div.portfolio')
 
 const renderPortfolioSection = async () => {
-    let uri = 'data/db.json/projects';
+    let uri = 'https://bogadeji-portfolio-db.herokuapp.com/projects';
   
     const res = await fetch(uri);
     const portfolioItems = await res.json();

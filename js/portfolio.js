@@ -4,7 +4,7 @@ const id = new URLSearchParams(window.location.search).get('id');
 const container = document.getElementById('portfolio')
 
 const renderPortfolioItem = async () => {
-  let uri = 'data/db.json/projects/' + id;
+  let uri = 'https://bogadeji-portfolio-db.herokuapp.com/projects' + id;
   
     const res = await fetch(uri);
   const portfolioItem = await res.json();
