@@ -65,7 +65,7 @@
                     "subtitle": "",
                     "snippet": "Responsive Web challenge  from devchalleng.io",
                     "description": "Everyone loves food, I think. Get a list of ingredients and instructions to your favorite meal. Baking time, and the number of servings the list of ingredients make are included.",
-                    "image_url": "img/recipe.png",
+                    "image_url": "img/recipe-01.png",
                     "device_image_url": "img/recipe.png",
                     "gif_url": null,
                     "live_url": "https://bogadeji.github.io/devchallenges/responsive-web-challenge/recipe-page/recipe.html",
