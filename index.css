@@ -291,6 +291,8 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    max-height: 350px;
+    object-fit: contain;
 }
 
 .section__subtitle--intro {
@@ -446,6 +448,7 @@ header {
 .portfolio__item {
     background: hsl(var(--clr-accent));
     overflow: hidden;
+    /* max-height: 170px; */
 }
 
 .portfolio__img {
