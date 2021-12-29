@@ -17,27 +17,27 @@
     --clr-accent: 50.6 100% 50%;
 
     --fs-h1: 2.4rem;
-    --fs-h2: 2.25rem;
-    --fs-h3: 1.25rem;
+    --fs-h2: 3rem;
+    --fs-h3: 1.5rem;
     --fs-body: 1rem;
 
     --bs: 0.75em 0.75em 1em rgba(0,0,0,0.15), 0.25em 0.25em 0.75em rgba(0,0,0,0.25),
             0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
 
-@media (min-width: 800px) {
+@media (max-width: 900px) {
     :root {
-        --fs-h1: 3.2rem;
-        --fs-h2: 3rem;
-        --fs-h3: 1.5rem;
-        --fs-body: 1.125rem;
+        --fs-h1: 2.5rem;
+        --fs-h2: 2rem;
+        --fs-h3: 1.2rem;
+        --fs-body: 1rem;
     }
 }
 @media (max-width: 500px) {
     :root {
-        --fs-h1: clamp(2rem, calc(5vw +  1rem), 4.5rem);
-        --fs-h2: 3.75rem;
-        --fs-h3: 1.5rem;
+        --fs-h1: 2rem;
+        --fs-h2: 2rem;
+        --fs-h3: 1.1rem;
         --fs-body: 1.125rem;
     }
 }
@@ -291,7 +291,7 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
-    max-height: 350px;
+    /* max-height: 350px; */
     object-fit: contain;
 }
 
@@ -301,7 +301,13 @@ header {
 
 @media (max-width: 600px) {
     .intro__img {
-        width: 100%
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    #home .intro__img {
+        display: none
     }
 }
 
@@ -336,7 +342,7 @@ header {
 }
 
 @media (min-width: 600px) and (max-width: 800px) {
-    .intro__img {
+    #home .intro__img {
         max-width: 150px;
         min-width: 200px;
     }
@@ -396,6 +402,12 @@ header {
     margin: 0 auto;
 }
 
+@media (max-width: 599px) {
+    .about-me__img {
+        display: none;
+    }
+}
+
 @media (min-width: 600px) {
     .about-me {
         display: grid;
@@ -430,6 +442,8 @@ header {
         z-index: 5;
     }
 }
+
+
 
 /* Portfolio Section */
 
@@ -591,9 +605,9 @@ section#portfolio {
 
 @media (min-width: 900px) {
     .my-projects {
-        grid-template-areas: 'title title img'
-                                'subtitle subtitle img'
-                                'body body img';
+        grid-template-areas: 'title  img'
+                                'subtitle  img'
+                                'body  body';
         grid-column-gap: 2em;
         margin: 0 5rem;
     }
@@ -609,10 +623,17 @@ section#portfolio {
     }
 }
 @media (min-width: 1200px) {
+    @media (min-width: 900px) {
+        .my-projects {
+            grid-template-areas: 'title title img'
+                                    'subtitle subtitle img'
+                                    'body body img';
+        }
+    }
     .my-projects img {
         /* grid-column: 3; */
-        grid-row: 1/-1;
+        /* grid-row: 1/-1;
         /* grid-row: 3 */
-        position: relative;
+        position: relative; */
     }
 }
