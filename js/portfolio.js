@@ -22,7 +22,7 @@ const renderPortfolioItem = async () => {
             </div>
         </div>
 
-        <img src="${portfolioItem.image_url}" alt="${portfolioItem.snippet}" class="intro__img">
+        <img src="${portfolioItem.device_image_url}" alt="${portfolioItem.snippet}" class="intro__img">
   `
 
   container.innerHTML = template;

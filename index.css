@@ -542,7 +542,7 @@ section#portfolio {
                             'subtitle'
                             'img'
                             'body';
-    grid-row-gap: 1em;
+    grid-row-gap: 0 1em;
 }
 
 .my-projects .section__title {
@@ -588,8 +588,8 @@ section#portfolio {
 
 @media (min-width: 900px) {
     .my-projects {
-        grid-template-areas: 'title title title'
-                                'subtitle subtitle subtitle'
+        grid-template-areas: 'title title img'
+                                'subtitle subtitle img'
                                 'body body img';
         grid-column-gap: 2em;
         margin: 0 5rem;
@@ -607,6 +607,9 @@ section#portfolio {
 }
 @media (min-width: 1200px) {
     .my-projects img {
-        grid-row: -1/1;
+        /* grid-column: 3; */
+        grid-row: 1/-1;
+        /* grid-row: 3 */
+        position: relative;
     }
 }
