@@ -1,17 +1,13 @@
 // javascript for portfolio section
+import { projects } from "../data/db.js";
+
 const portfolioContainer = document.querySelector('div.portfolio')
 
-const renderPortfolioSection = async () => {
-    let uri = 'https://bogadeji-portfolio-db.herokuapp.com/projects';
-  
-    const res = await fetch(uri);
-    const portfolioItems = await res.json();
-    // console.log(portfolioItems)
-
+const renderPortfolioSection = () => {
+    
     let template = '';
-    portfolioItems.forEach(item => {
+    projects.forEach(item => {
 
-        console.log(item.image_url)
         template+=`
             <!-- Portfolio item ${item.id} -->
             <a href="portfolio.html?id=${item.id}" class="portfolio__item">

@@ -1,14 +1,13 @@
 // javascript for portfolio.html
+import { projects } from "../data/db.js";
 
 const id = new URLSearchParams(window.location.search).get('id');
 const container = document.getElementById('portfolio')
 
-const renderPortfolioItem = async () => {
-  let uri = 'https://bogadeji-portfolio-db.herokuapp.com/projects/' + id;
+const renderPortfolioItem =  () => {
   
-    const res = await fetch(uri);
-  const portfolioItem = await res.json();
-
+  const portfolioItem = projects.find(project => project.id == id)
+  
   const template = `
       
         <h2 class="section__title section__title--projects">${portfolioItem.title}</h2>
