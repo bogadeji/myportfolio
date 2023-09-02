@@ -16,7 +16,7 @@ import TheHeader from '../components/TheHeader.vue';
                     <a href="#contact" class="button button-primary">Hire me</a>
                 </div>
                 <div>
-                    <img src="/img/39.png" alt="" />
+                    <!-- <img src="/img/39.png" alt="" /> -->
                 </div>
             </div>
         </section>
@@ -25,7 +25,7 @@ import TheHeader from '../components/TheHeader.vue';
         </section>
         <section id="about">
             <div>
-                <img src="/img/1.png" alt="" />
+                <!-- <img src="/img/1.png" alt="" /> -->
             </div>
             <div>
                 <h2>More about me</h2>
@@ -48,7 +48,7 @@ import TheHeader from '../components/TheHeader.vue';
                 </form>
             </div>
             <div>
-                <img src="/img/41.png" alt="" />
+                <!-- <img src="/img/41.png" alt="" /> -->
             </div>
         </section>
     </main>
