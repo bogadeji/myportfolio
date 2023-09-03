@@ -1,5 +1,5 @@
 <template>
-  <header class="">
+  <header class="max-width">
     <div class="logo-icon">
       <img src="/_bogadeji_.svg" alt="" />
     </div>
@@ -19,11 +19,12 @@
 <script setup>
   import ToggleTheme from './ToggleTheme.vue';
 </script>
-<style>
+<style scoped>
   header {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 74px;
   }
  
   .logo-icon {
@@ -73,7 +74,6 @@
       margin: 0;
       padding:  50px 0;
       transition: transform 250ms cubic-bezier(.5, 0, 0.5, 1);
-      /* width: 50%; */
     }
     @supports (backdrop-filter: blur(1rem)) {
       .nav-links {

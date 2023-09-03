@@ -2,24 +2,14 @@
 import TheWelcome from '../components/TheWelcome.vue';
 import TheFooter from '../components/TheFooter.vue';
 import TheHeader from '../components/TheHeader.vue';
+import TheHero from '../components/TheHero.vue';
 </script>
 
 <template>
   <div>
     <main>
-        <section class="hero">
-            <TheHeader />
-            <div>
-                <div>
-                    <h1>Hi There!</h1>
-                    <h2>I'm Abigail and I'm a Frontend engineer!</h2>
-                    <a href="#contact" class="button button-primary">Hire me</a>
-                </div>
-                <div>
-                    <!-- <img src="/img/39.png" alt="" /> -->
-                </div>
-            </div>
-        </section>
+        <TheHero />
+        
         <section id="project">
             <h2>Projects</h2>
         </section>
@@ -57,3 +47,17 @@ import TheHeader from '../components/TheHeader.vue';
     </footer>
   </div>
 </template>
+<style>
+    h1 {
+        font-size: 48px;
+        font-weight: 700;
+        margin: 0;
+        margin-bottom: 0.2em;
+    }
+
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 40px;
+        }
+    }
+</style>

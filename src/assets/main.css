@@ -33,7 +33,31 @@ a,
     padding: 0 2rem;
   }
 } */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+.max-width {
+  max-width: 1450px;
+  margin: 0 auto;
+}
 
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+}
 a {
   text-decoration: none;
+}
+img {
+  /* width: 100%;
+  max-width: 100%; */
+}
+.button.button-primary {
+  background-color: purple;
+  padding: 12px 24px;
+  color: #fff;
+  border-radius: 4px;
 }
