@@ -51,13 +51,15 @@ body {
 a {
   text-decoration: none;
 }
-img {
-  /* width: 100%;
-  max-width: 100%; */
-}
 .button.button-primary {
+  display: inline-block;
   background-color: purple;
   padding: 12px 24px;
   color: #fff;
   border-radius: 4px;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
 }

@@ -2,16 +2,17 @@
   <defs>
     <style>
       .cls-1, .cls-20 {
-        fill: #6c63ff;
+        <!-- fill: #673147; -->
+        fill: #CF9FFF
       }
 
       .cls-2 {
-        fill: #444053;
+        fill: #800080;
       }
 
       .cls-3, .cls-4 {
         fill: none;
-        stroke: #444053;
+        stroke: #800080;
         stroke-miterlimit: 10;
       }
 
@@ -20,11 +21,13 @@
       }
 
       .cls-5 {
-        fill: #e8eaf2;
+        <!-- fill: #e8eaf2; -->
+        fill: #E6E6FA
       }
 
       .cls-6 {
-        fill: #65617d;
+        <!-- fill: #65617d; -->
+        fill: #800080
       }
 
       .cls-7 {
@@ -64,7 +67,9 @@
       }
 
       .cls-15 {
-        fill: #e3e8f4;
+        <!-- fill: #e3e8f4; -->
+        fill: yellow;
+        fill: #CF9FFF
       }
 
       .cls-16 {
@@ -80,7 +85,7 @@
       }
 
       .cls-20 {
-        opacity: 0.2;
+        opacity: 0.4;
       }
 
       .cls-21 {

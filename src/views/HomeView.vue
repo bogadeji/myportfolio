@@ -3,31 +3,19 @@ import TheWelcome from '../components/TheWelcome.vue';
 import TheFooter from '../components/TheFooter.vue';
 import TheHeader from '../components/TheHeader.vue';
 import TheHero from '../components/TheHero.vue';
+import AboutMe from '../components/AboutMe.vue';
 </script>
 
 <template>
   <div>
-    <main>
+    
         <TheHero />
-        
+        <main> 
         <section id="project">
             <h2>Projects</h2>
         </section>
-        <section id="about">
-            <div>
-                <!-- <img src="/img/1.png" alt="" /> -->
-            </div>
-            <div>
-                <h2>More about me</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy.
-                </p>
-            </div>
-        </section>
+        <AboutMe />
+        
         <section id="contact">
             <div>
                 <form>
