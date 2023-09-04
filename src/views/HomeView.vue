@@ -4,36 +4,24 @@ import TheFooter from '../components/TheFooter.vue';
 import TheHeader from '../components/TheHeader.vue';
 import TheHero from '../components/TheHero.vue';
 import AboutMe from '../components/AboutMe.vue';
+import ContactMe from '../components/ContactMe.vue';
 </script>
 
 <template>
-  <div>
+    <div>
     
         <TheHero />
         <main> 
-        <section id="project">
-            <h2>Projects</h2>
-        </section>
-        <AboutMe />
-        
-        <section id="contact">
-            <div>
-                <form>
-                    <input placeholder="Full name*" />
-                    <input placeholder="Email*" />
-                    <textarea placeholder="Message*"></textarea>
-                    <button class="button button-secondary">Submit</button>
-                </form>
-            </div>
-            <div>
-                <!-- <img src="/img/41.png" alt="" /> -->
-            </div>
-        </section>
-    </main>
-    <footer>
-        <TheFooter />
-    </footer>
-  </div>
+            <section id="project">
+                <h2>Projects</h2>
+            </section>
+            <AboutMe />
+            <ContactMe />
+        </main>
+        <footer>
+            <TheFooter />
+        </footer>
+    </div>
 </template>
 <style>
     h1 {
