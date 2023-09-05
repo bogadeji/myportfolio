@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "name": "Linkedin",
+    "link": "https://linkedin.com/in/bogadeji",
+    "icon": "/assets/social/linkedin.svg"
+  },
+  {
+    "id": 1,
+    "name": "Github",
+    "link": "https://github.com/bogadeji",
+    "icon": "/assets/social/github.svg"
+  },
+  {
+    "id": 2,
+    "name": "Twitter",
+    "link": "https://twitter.com/dev___abby",
+    "icon": "/assets/social/twitter.svg"
+  }
+]

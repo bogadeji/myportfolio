@@ -40,9 +40,15 @@ a,
   margin: 0;
   font-weight: normal;
 }
-.max-width {
-  max-width: 1450px;
+.container {
+  max-width: 1700px;
   margin: 0 auto;
+  padding-inline: 100px;
+}
+@media (max-width: 960px) {
+  .container {
+    padding-inline: 20px;
+  }
 }
 
 body {
@@ -71,13 +77,3 @@ img {
   object-fit: contain;
 }
 
-/* #673147
-
-
-
-
-
-
-#BF40BF
-#CF9FFF
-#800080 */

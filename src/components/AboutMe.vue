@@ -1,5 +1,5 @@
 <template>
-  <section id="about">
+  <section id="about" class="container">
     <div>
         <img src="/assets/illustrations/skills.svg" alt="" />
     </div>
@@ -17,7 +17,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    padding: 50px 0;
+    padding-block: 50px;
   }
   .about-article {
     margin: auto;
@@ -36,7 +36,7 @@
   .about-article a {
     margin: 20px 0;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 960px) {
     #about {
       display: block;
       text-align: center

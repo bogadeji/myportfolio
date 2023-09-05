@@ -1,5 +1,5 @@
 <template>
-  <header class="max-width">
+  <header class="container ">
     <div class="logo-icon">
       <img src="/_bogadeji_.svg" alt="" />
     </div>

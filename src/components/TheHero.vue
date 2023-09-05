@@ -1,7 +1,7 @@
 <template>
-  <div class="hero">
+  <div id="hero">
     <TheHeader />
-    <section class="hero__section max-width">
+    <section class="hero__section container">
         <div class="hero__section--intro">
             <h1>Hi There!</h1>
             <h4 class="intro">I'm Abigail and I'm a Frontend engineer!</h4>
@@ -17,7 +17,7 @@
   import TheHeader from './TheHeader.vue';
 </script>
 <style scoped>
-  .hero {
+  #hero {
     background-image: url("/assets/illustrations/overlay.svg");
     background-repeat: no-repeat;
     background-position: right top;
@@ -25,7 +25,7 @@
   }
   
   .intro {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 400;;
     margin: 0;
     color: rgb(112, 112, 112);
@@ -39,28 +39,28 @@
     max-width: 100%;
     object-fit: contain;
   }
-  @media (min-width: 600px) {
+  @media (min-width: 960px) {
     .hero {
-      padding: 0 100px;
+      /* padding: 0 100px; */
     }
     .hero__section {
       gap: 10px;
       grid-template-columns: repeat(2, 1fr);
-      padding: 50px 0;
+      padding-block: 50px;
     }
     .hero__section--intro {
       margin: auto 0;
     }
     
   }
-  @media (max-width: 599px) {
-    .hero {
+  @media (max-width: 959px) {
+    #hero {
     background-image: url("/assets/illustrations/overlay.svg");
     background-repeat: no-repeat;
     background-position: left top;
     background-size: contain;
   }
-  .hero h1 {
+  #hero h1 {
     font-size: 30px;
   }
     .hero__section {

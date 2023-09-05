@@ -5,22 +5,18 @@ import TheHeader from '../components/TheHeader.vue';
 import TheHero from '../components/TheHero.vue';
 import AboutMe from '../components/AboutMe.vue';
 import ContactMe from '../components/ContactMe.vue';
+import Projects from '../components/Projects.vue';
 </script>
 
 <template>
     <div>
-    
         <TheHero />
         <main> 
-            <section id="project">
-                <h2>Projects</h2>
-            </section>
+            <Projects />
             <AboutMe />
             <ContactMe />
         </main>
-        <footer>
-            <TheFooter />
-        </footer>
+        <TheFooter />
     </div>
 </template>
 <style>
@@ -31,7 +27,7 @@ import ContactMe from '../components/ContactMe.vue';
         margin-bottom: 0.2em;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 960px) {
         h1 {
             font-size: 40px;
         }
