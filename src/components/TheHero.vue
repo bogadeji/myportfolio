@@ -4,7 +4,7 @@
     <section class="hero__section container">
         <div class="hero__section--intro">
             <h1>Hi There!</h1>
-            <h4 class="intro">I'm Abigail and I'm a Frontend engineer!</h4>
+            <h4 class="intro">I'm Abigail and I'm a Frontend engineer, and I love clean and elegant code!</h4>
             <a href="#contact" class="button button-primary">Hire me</a>
         </div>
         <div class="hero__section--img">
@@ -39,8 +39,9 @@
     max-width: 100%;
     object-fit: contain;
   }
-  @media (min-width: 960px) {
-    .hero {
+  @media  (min-width: 960px) {
+     .hero
+      {
       /* padding: 0 100px; */
     }
     .hero__section {

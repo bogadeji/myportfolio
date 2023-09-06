@@ -4,7 +4,7 @@
         <h2>Projects</h2>
         <div class="projects-list">
           <div v-for="(project, index) in projects">
-            <div :key="index" class="project"></div>
+            <Project :project="project" :key="index" />
           </div>
         </div>
       </div>
@@ -12,10 +12,10 @@
 </template>
 <script setup>
   import projects from '@/utils/projects.json'
+  import Project from './Project.vue';
 </script>
 <style scoped>
 #projects {
-  
   padding-block: 150px;
 }
  #projects h2 {
@@ -28,8 +28,9 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
  }
- .project {
-  height: 300px;
-  background-color: lavender;
+ @media (max-width: 1028px) {
+  .projects-list {
+    grid-template-columns: 1fr;
+  }
  }
 </style>

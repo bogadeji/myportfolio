@@ -6,7 +6,9 @@
     <div class="about-article">
       <h2>More about me</h2>
       <p>
-        I am a frontend developer with hands on experiencing 
+        I am a frontend developer with hands on experience  writing clean, well-formated, semantic HTML5, making sure that the content is accessible, easy to read, easy to collaborate and trouble-shoot.
+        I pride myself on writing CSS that is easy to read and build on. I focus on keeping my CSS lean and fast to load, and I make it a habit to stay up to date on current best practices.
+        You can trust me to take a design and quickly & accurately convert it into a webpage that is a pixel-perfect match. 
       </p>
       <a href="#contact" class="button button-primary">Hire me</a>
     </div>
@@ -30,11 +32,12 @@
   }
   .about-article p {
     font-size: 22px;
+    line-height: 1.5;
     font-weight: 400px;
     color: rgb(112, 112, 112);
   }
   .about-article a {
-    margin: 20px 0;
+    margin: 25px 0;
   }
   @media (max-width: 960px) {
     #about {

@@ -1,3 +1,66 @@
 [
-  {},{},{},{},{},{},{}  
+  {
+    "id": 0,
+    "name": "Varsity Vines Landing Page",
+    "alt": "",
+    "description": "",
+    "github": "",
+    "demo": "",
+    "link": "https://linkedin.com/in/bogadeji",
+    "image": "/img/a.png"
+  },{
+    "id": 1,
+    "name": "Varsity Vines Landing Page",
+    "alt": "",
+    "description": "",
+    "github": "",
+    "demo": "",
+    "link": "https://linkedin.com/in/bogadeji",
+    "image": "/img/a.png"
+  },{
+    "id": 2,
+    "name": "Varsity Vines Landing Page",
+    "alt": "",
+    "description": "",
+    "github": "",
+    "demo": "",
+    "link": "https://linkedin.com/in/bogadeji",
+    "image": "/img/a.png"
+  },{
+    "id": 3,
+    "name": "Varsity Vines Landing Page",
+    "alt": "",
+    "description": "",
+    "github": "",
+    "demo": "",
+    "link": "https://linkedin.com/in/bogadeji",
+    "image": "/img/a.png"
+  },{
+    "id": 4,
+    "name": "Varsity Vines Landing Page",
+    "alt": "",
+    "description": "",
+    "github": "",
+    "demo": "",
+    "link": "https://linkedin.com/in/bogadeji",
+    "image": "/img/a.png"
+  },{
+    "id": 5,
+    "name": "Varsity Vines Landing Page",
+    "alt": "",
+    "description": "",
+    "github": "",
+    "demo": "",
+    "link": "https://linkedin.com/in/bogadeji",
+    "image": "/img/a.png"
+  },{
+    "id": 6,
+    "name": "Varsity Vines Landing Page",
+    "alt": "",
+    "description": "",
+    "github": "",
+    "demo": "",
+    "link": "https://linkedin.com/in/bogadeji",
+    "image": "/img/a.png"
+  }  
 ]
